@@ -55,32 +55,6 @@ Executed SQL queries to generate insights across key business areas:
 
 ---
 
-## 📂 Repository Structure
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets (ERP and CRM source files)
-│
-├── docs/                               # Project documentation & architecture diagrams
-│   ├── etl.drawio                      # Diagrams detailing ETL procedures
-│   ├── data_architecture.drawio        # High-level architecture visualization
-│   ├── data_catalog.md                 # Field-level data catalog and metadata
-│   ├── data_flow.drawio                # End-to-end data flow diagrams
-│   ├── data_models.drawio              # Dimensional model (Star Schema) design
-│   └── naming-conventions.md           # Naming standards for database objects
-│
-├── scripts/                            # SQL scripts organized by architecture layer
-│   ├── bronze/                         # Bulk load & ingestion scripts
-│   ├── silver/                         # Data cleansing & transformation scripts
-│   └── gold/                           # Analytical views & dimensional model scripts
-│
-├── tests/                              # Data quality and validation test scripts
-│
-├── README.md                           # Project documentation
-├── LICENSE                             # License information
-└── requirements.txt                    # Project setup dependencies
-
-
----
 
 ## 🛠️ Tools & Technologies
 - **Database Engine**: Microsoft SQL Server Express
